@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: black;
+}
+
+.navlink{
+    padding: 4px;
+    color: aliceblue;
+}
+
+.navlink:hover{
+    background-color: blueviolet;
+}

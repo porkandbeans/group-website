@@ -1,0 +1,28 @@
+<style>
+    .container {
+        height: 100%;
+        position: relative;
+    }
+
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+</style>
+
+<div class="container">
+    <div class="center">
+        <button style="width: 90px; height: 90px;" onclick="playMusic()">2?</button>
+    </div>
+</div>
+
+<script>
+    var two = new Audio("2.mp3");
+    function playMusic() {
+        two.play();
+    }
+</script>

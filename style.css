@@ -4,6 +4,10 @@ body{
     z-index: 0;
 }
 
+body.gallery_body{
+    text-align: center;
+}
+
 .navbar{
     width: 100%;
     text-align: center;
@@ -13,7 +17,7 @@ body{
 }
 
 .navlink{
-    padding: 4px;
+    /*padding: 4px;*/
     color: aliceblue;
 }
 
@@ -21,12 +25,34 @@ body{
     background-color: blueviolet;
 }
 
+/* marquee */
 .sanic{
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
+/* actual image of sonic */
 .sanicimg{
     z-index: 1;
+}
+
+.gallery_item {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.37);
+    margin: 10px;
+  }
+
+.gallery {
+    display: inline-block;
+    width: 75%;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.452);
+    margin-top: 10px;
+}
+
+.gallery_frame{
+    display: inline-block;
 }
